@@ -6,11 +6,11 @@ Default generated partial's look is similar to those LinkRenderer renders
 
 
 To install use command
-./script/plugin install git://github.com/html/PartialRenderer.git partial_renderer
+./script/plugin install git://github.com/html/partial_renderer.git
 
 or 
 
-git submodule add git://github.com/html/PartialRenderer.git vendor/plugins/partial_renderer/
+git submodule add git://github.com/html/partial_renderer.git vendor/plugins/partial_renderer/
 
 
 and generate simple view partial
