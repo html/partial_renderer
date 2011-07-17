@@ -1,3 +1,5 @@
+require "will_paginate"
+
 module WillPaginate
   class PartialRenderer < (WillPaginate::VERSION::MAJOR == 2 ? WillPaginate::LinkRenderer : WillPaginate::ViewHelpers::LinkRenderer)
     def prepare(collection, options, template)
